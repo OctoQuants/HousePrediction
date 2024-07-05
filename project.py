@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error,r2_score
 import pickle
 
 model = pickle.load(open(r"C:\Users\dell\Jupyter Notebooks\Deep Learning\Elite-20\lr.pkl","rb"))
